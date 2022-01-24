@@ -1,0 +1,31 @@
+
+@media screen and (min-width:1000px) {
+    
+    .content{
+        width: 900px;
+        margin: auto;
+    }
+    .content h1{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    
+    .video__trailer video{
+        width: 80%;
+        margin: auto;
+        box-shadow: 0px 0px 40px rgb(0, 0, 0);
+    }
+}
+
+@keyframes mover{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
